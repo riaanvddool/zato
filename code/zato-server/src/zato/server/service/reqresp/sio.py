@@ -146,6 +146,8 @@ class Boolean(ForceType):
 
     from_xml = to_json = to_xml = from_json
 
+Bool = Boolean
+
 # ################################################################################################################################
 
 class CSV(ForceType):
@@ -200,6 +202,8 @@ class Integer(ForceType):
         return int(value)
 
     from_xml = to_json = to_xml = from_json
+
+Int = Integer
 
 # ################################################################################################################################
 
